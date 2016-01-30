@@ -1,14 +1,17 @@
 <Page loaded="loaded"
     xmlns:components="components/AffirmationFlasher">
+    <StackLayout orientation="vertical">
+        <Label cssClass="title" text="Breathe with me." />
+        <Label cssClass="title" text="In and out." />
+        <StackLayout id="breathe-wrapper" horizontalAlignment="center" verticalAlignment="center">
+            <StackLayout
+                    orientation="vertical"
+                    id="breathe"
+                    horizontalAlignment="center"
+                    verticalAlignment="center" >
 
-    <StackLayout horizontalAlignment="center" verticalAlignment="center">
-        <StackLayout
-            orientation="vertical"
-            id="breathe"
-            horizontalAlignment="center"
-            verticalAlignment="center" >
-
-            <components:AffirmationFlasher />
+                <components:AffirmationFlasher />
+            </StackLayout>
         </StackLayout>
     </StackLayout>
 </Page>
