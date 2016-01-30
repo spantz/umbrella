@@ -3,3 +3,4 @@ lib/
 node_modules/
 platforms/
 tmp/
+.DS_Store
