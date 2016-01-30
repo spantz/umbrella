@@ -17,7 +17,7 @@ function animate(message) {
 exports.loaded = function (args) {
     page = args.object;
 
-    var message = page.getViewById('message');
+    var message = page.getViewById('breathe');
     animate(message);
     setInterval(function () {
         animate(message);

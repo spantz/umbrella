@@ -3,15 +3,19 @@ Page {
   font-size: 20;
 }
 
+#breathe {
+  background-color: #707BFF;
+  color: white;
+  font-weight: bold;
+  width: 200;
+  height: 200;
+  border-radius: 100;
+}
+
 .title {
     font-size: 40;
     horizontal-align: center;
     margin: 20;
-}
-
-button {
-    font-size: 42;
-    horizontal-align: center;
 }
 
 .message {
