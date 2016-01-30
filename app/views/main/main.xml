@@ -1,6 +1,16 @@
-<Page loaded="loaded">
+<Page loaded="loaded"
+    xmlns:components="components/AffirmationFlasher">
+
     <AbsoluteLayout orientation="vertical" height="stretch">
-        <Button id="breathe" text="Breathe" left="90" top="150"/>
+        <StackLayout
+            orientation="vertical"
+            left="90"
+            top="150"
+            id="breathe"
+            horizontalAlignment="center" >
+            
+            <components:AffirmationFlasher />
+        </StackLayout>
         <Label id="mantra" text="Mantra" top="500"/>
         <Label id="subtitle" text="Subtitle" top="530"/>
     </AbsoluteLayout>
