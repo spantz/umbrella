@@ -1,11 +1,15 @@
+ActionBar{
+  background-color: #7879FD;
+}
+
 Page {
-  background-color: #707BFF;
+  background-image: url('~/images/background@2x.png');
   font-size: 20;
 }
 
 #breathe {
   background-color: #5ED9D8;
-  color: black;
+  color: #053140;
   font-weight: bold;
   width: 200;
   height: 200;
