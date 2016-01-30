@@ -1,3 +1,7 @@
 <Page loaded="loaded">
-    <Button id="breathe" text="Breathe"/>
+    <AbsoluteLayout orientation="vertical" height="stretch">
+        <Button id="breathe" text="Breathe" left="90" top="150"/>
+        <Label id="mantra" text="Mantra" top="500"/>
+        <Label id="subtitle" text="Subtitle" top="530"/>
+    </AbsoluteLayout>
 </Page>

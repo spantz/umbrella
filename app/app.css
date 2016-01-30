@@ -1,15 +1,29 @@
 Page {
-  background-color: #B665D3;
+  background-color: #707BFF;
   font-size: 20;
 }
 
 #breathe {
-  background-color: #707BFF;
-  color: white;
+  background-color: #FAF260;
+  color: black;
   font-weight: bold;
   width: 200;
   height: 200;
   border-radius: 100;
+}
+#mantra {
+  horizontal-align: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30;
+  width: 375;
+}
+#subtitle {
+  horizontal-align: center;
+  text-align: center;
+  color: white;
+  width: 375;
 }
 
 .title {
