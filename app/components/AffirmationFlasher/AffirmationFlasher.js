@@ -1,5 +1,7 @@
 'use strict';
 
+var timer = require('timer');
+
 var items = [
     'This too shall pass like all the times before.',
     'I am not my thoughts, I am my actions.',
@@ -42,7 +44,7 @@ exports.loaded = function (args) {
     label = args.object;
 
     label.text = loadNextAffirmation();
-    setInterval(function () {
+    timer.setInterval(function () {
         replaceAffirmation(label, loadNextAffirmation());
     }, 10000);
 };
