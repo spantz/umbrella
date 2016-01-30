@@ -1,17 +1,14 @@
 <Page loaded="loaded"
     xmlns:components="components/AffirmationFlasher">
 
-    <AbsoluteLayout orientation="vertical" height="stretch">
+    <StackLayout horizontalAlignment="center" verticalAlignment="center">
         <StackLayout
             orientation="vertical"
-            left="90"
-            top="150"
             id="breathe"
-            horizontalAlignment="center" >
-            
+            horizontalAlignment="center"
+            verticalAlignment="center" >
+
             <components:AffirmationFlasher />
         </StackLayout>
-        <Label id="mantra" text="Mantra" top="500"/>
-        <Label id="subtitle" text="Subtitle" top="530"/>
-    </AbsoluteLayout>
+    </StackLayout>
 </Page>
