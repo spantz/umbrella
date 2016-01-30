@@ -4,12 +4,14 @@ var page;
 
 function animate(message) {
     message.animate({
-        opacity: 0,
-        duration: 2000
+        opacity: .75,
+        scale: {x:1, y:1},
+        duration: 3000
     }).then(function () {
         message.animate({
             opacity: 1,
-            duration:2000
+            scale: {x:1.5, y:1.5},
+            duration: 3000
         });
     });
 }
@@ -21,5 +23,5 @@ exports.loaded = function (args) {
     animate(message);
     setInterval(function () {
         animate(message);
-    }, 4250);
+    }, 6500);
 };
