@@ -26,10 +26,16 @@ Page {
   width: 375;
 }
 
-.title {
-    font-size: 40;
+#breathe-wrapper {
+    margin-top: 120;
     horizontal-align: center;
-    margin: 20;
+    vertical-align: center;
+}
+
+.title {
+    font-size: 25;
+    margin-top: 5;
+    text-align:center;
 }
 
 .message {
