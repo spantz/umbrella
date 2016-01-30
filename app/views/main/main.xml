@@ -1,3 +1,3 @@
-<Page>
-    <Label text="Hello World"/>
+<Page loaded="loaded" id="main">
+      <Button text="BREATHE" id="breathe" style="width:200;height:200;border-radius:100;background-color:#FBEF5D;color:#FEA01A;" />
 </Page>

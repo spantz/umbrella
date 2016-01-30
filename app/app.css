@@ -1,5 +1,10 @@
-﻿.title {
-    font-size: 30;
+Page {
+  background-color: #B665D3;
+  font-size: 20;
+}
+
+.title {
+    font-size: 40;
     horizontal-align: center;
     margin: 20;
 }
@@ -10,7 +15,7 @@ button {
 }
 
 .message {
-    font-size: 20;
-    color: #284848;
+    font-size: 40;
+    color: #FFFFFF;
     horizontal-align: center;
 }
